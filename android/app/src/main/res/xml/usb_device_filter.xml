@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CP2102 (Silicon Labs) USB-시리얼 컨버터 -->
+    <usb-device vendor-id="4292" product-id="60000" />
+    <!-- CP2102N -->
+    <usb-device vendor-id="4292" product-id="60016" />
+    <!-- CH340/CH341 USB-시리얼 컨버터 -->
+    <usb-device vendor-id="6790" product-id="29987" />
+    <!-- FTDI FT232R -->
+    <usb-device vendor-id="1027" product-id="24577" />
+    <!-- CDC ACM (일반 USB 시리얼) - ESP32 기본 USB -->
+    <usb-device vendor-id="12346" product-id="1" />
+    <!-- Espressif USB JTAG/serial (ESP32-S2, S3, C3 내장 USB) -->
+    <usb-device vendor-id="12346" product-id="2" />
+</resources>
